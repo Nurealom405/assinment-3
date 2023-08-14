@@ -9,7 +9,7 @@
 
 .legalHeading{
     font-size: 80px;
-    font-family: EB Garamond;
+    font-family: 'EB Garamond', serif;
     font-style: bold;
     font-weight: 700;
 
@@ -40,6 +40,17 @@
     border: none;
 
 }
+.extraFont{
+   
+    font-family: 'EB Garamond', serif;
+    font-style: bold;
+    font-weight: 700;
+    
+}
+
+
+
+
 
 
 
@@ -49,7 +60,10 @@
     .legalHeading{
         font-family: EB Garamond;
         font-size: 25px;
-        margin-top: 60px;    
+        margin-top: 20px;    
+    }
+    .bannerP{
+        display: none;
     }
 
     .bannerSearch{
