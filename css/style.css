@@ -1,0 +1,66 @@
+
+
+
+
+
+.marginR{
+    margin-right: 40px;
+}
+
+.legalHeading{
+    font-size: 80px;
+    font-family: EB Garamond;
+    font-style: bold;
+    font-weight: 700;
+
+    
+}
+.bannerSearch{
+    width: 480px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: none;
+}
+.navBtn{
+    background-color: #b68c5a;
+    color: white;
+    height: 60px;
+    width: 220px;
+    border: none;
+    border-radius: 10px;
+}
+.bannerBtn{
+    width: 130px;
+    height: 50px;    
+    border-radius: 10px;
+    color: white;
+    background-color: #b68c5a;  
+    border: none;
+
+}
+
+
+
+
+
+@media screen and (max-width: 680px) {
+    .legalHeading{
+        font-family: EB Garamond;
+        font-size: 25px;
+        margin-top: 60px;    
+    }
+
+    .bannerSearch{
+        display: none;
+    }
+    .bannerBtn{
+      display: none;
+    
+    }
+
+}
+
+
+
