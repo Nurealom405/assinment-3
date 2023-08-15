@@ -61,7 +61,10 @@
 .centerContent{
     text-align: center;
 }
-
+.bg-clr{
+    background-color: black;
+    color: white;
+}
 
 
 
