@@ -31,6 +31,14 @@
     border: none;
     border-radius: 10px;
 }
+.navBtn2{
+    background-color: #b68c5a;
+    color: white;
+    height: 65px;
+    width: 635px;
+    border: none;
+    border-radius: 10px;
+}
 .bannerBtn{
     width: 130px;
     height: 50px;    
@@ -46,6 +54,12 @@
     font-style: bold;
     font-weight: 700;
     
+}
+.accordianClr{
+    background-color: #f3f3f3;
+}
+.centerContent{
+    text-align: center;
 }
 
 
