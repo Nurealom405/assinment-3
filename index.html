@@ -76,9 +76,33 @@
                 </li>
               </ul>
               <form class="d-flex" role="search">
-                <button class="navBtn fw-bold" type="submit">
+                <!-- <button class="navBtn fw-bold" type="submit">
                   Free Consultation
-                </button>
+                </button> -->
+                <!-- Button trigger modal -->
+<button type="button" class=" navBtn fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Free Consultation
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Hello, This is a nav menu modal.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
               </form>
             </div>
           </div>
@@ -237,6 +261,8 @@
 
       <!-- Legal Practice Area End -->
 
+      
+
 
       <!-- Client say start -->
       <section class="container mt-5">
@@ -319,12 +345,16 @@
                 <div class="accordion-item mb-3 rounded p-4 accordianClr">
                   <h2 class="accordion-header">
                     <button class="accordion-button extraFont fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Accordion Item #1
+                      What’s the Difference Between Flexbox and Grid?
                     </button>
                   </h2>
                   <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      Flexbox can optionally wrap. If we allow a flex container to wrap, they will wrap down onto another row when the flex items fill a row. Where they line up on the next row is independent of what happenned on the first row, allowing for a masonry-like look.
+                      <br><br>
+
+
+Grid can also optionally wrap (if we allow auto filling) in the sense that items can fill a row and move to the new row (or auto place themselves), but as they do, they will fall along the same grid lines all the other elements do.
                     </div>
                   </div>
                 </div>
@@ -332,12 +362,12 @@
                 <div class="accordion-item mb-3 rounded p-4 accordianClr">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed extraFont fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Accordion Item #2
+                      What is the purpouse of media Query?
                     </button>
                   </h2>
                   <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      Basically media query are use in vanila css to make page responsive in various way. In media query we can control design deference for display width. Its very helpful for us.
                     </div>
                   </div>
                 </div>
@@ -345,12 +375,12 @@
                 <div class="accordion-item mb-3 rounded p-4 accordianClr">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed extraFont fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Accordion Item #2
+                      What is Css Box model? How does it work?
                     </button>
                   </h2>
                   <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      The CSS box model is a container that contains multiple properties including borders, margins, padding, and the content itself. It is used to create the design and layout of web pages. It can be used as a toolkit for customizing the layout of different elements. The web browser renders every element as a rectangular box according to the CSS box model. 
                     </div>
                   </div>
                 </div>
@@ -358,12 +388,14 @@
                 <div class="accordion-item mb-3 rounded p-4 accordianClr">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed extraFont fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                      Accordion Item #2
+                      What is semantic tag?
                     </button>
                   </h2>
                   <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      The semantic HTML tags help the search engines and other user devices to determine the importance and context of web pages.
+The pages made with semantic elements are much easier to read.<br>
+Example of semantic tags: header, nav, section, article, footer.
                     </div>
                   </div>
                 </div>
